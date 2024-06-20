@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="d-flex flex-row position-fixed top-0 logoheader " style="width: 100%;">
+    
+      <div
+        class="d-flex flex-row-reverse flex-fill align-items-center justify-content-start mmenu "
+        style="height: 100px; z-index: 999; background-image: url('./img/header-back-1.png');"
+      >
+      <div class="hamburger" style="width: 100%;position: absolute; display: none;">
+      <div style="height: 50px; width:100%; direction: rtl; ">
+       <button id="dokme" style="background-image: url('./img/header-back-1.png'); border: none;"> <img style="height: 50px;width: 50px;" src="./img/sefid.png" alt=""> </button>
+        <div id="hambur" style="width: 100%;background-image: url('./img/header-back-1.png');height: 580px;direction: rtl; display: none;">
+          <div><a class="menua" href="" style="text-decoration: none;font-family: yekan;">صفحه اصلی</a></div>
+          <br><div><a class="menu" href="" style="text-decoration: none;font-family: yekan;">شرکت گلستان</a></div>
+          <br><div><a class="menu" href="" style="text-decoration: none;font-family: yekan;">معرفی محصولات</a></div>
+          <br><div><a class="menu" href="/weblog.html" style="text-decoration: none;font-family: yekan;">وبلاگ</a></div>
+          <br><div><a class="menu" href="" style="text-decoration: none;font-family: yekan;">خدمات</a></div>
+          <br><div><a class="menu" href="" style="text-decoration: none;font-family: yekan;">درباره ما</a></div>
+        </div>
+      </div>
+      </div>
+
+
+        <span class="pe-2 pt-3"
+          >
+          <a
+            href="./index.html"
+            class="menu text-decoration-none menumobile"
+            style="font-family: Yekan"
+            >صفحه اصلی</a
+          ></span
+        >
+        <span
+          class="pe-4 pt-3 text-secondary khat"
+          style="font-size: 25px; font-weight: lighter"
+        >
+          |
+        </span>
+        <div class="pe-4 pt-3" style="position: relative;"
+          ><a
+            href=""
+            class="menu text-decoration-none menu-1 menumobile"
+            style="font-family: Yekan"
+            >شرکت گلستان
+           <div class="megamenu-1 " style="width: 160px; height: 330px;background-image: url('./img/header-back-1.png'); margin-top: 500px; position: absolute; top: -460px; left: -50px;direction: rtl;padding: 10px; ">
+           <h1 class="menu" style="font-size: 15px;">معرفی شرکت</h1>
+           <br><h1 class="menu" style="font-size: 15px;">تاریخچه گلستان</h1>
+           <br><h1 class="menu" style="font-size: 15px;">اطلاعیه ها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">مسئوليت‌های اجتماعی</h1>
+           <br><h1 class="menu" style="font-size: 15px;">سازمان فروش </h1>
+           <br><h1 class="menu" style="font-size: 15px;">سازمان توزیع</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+          </div> </a
+          >
+
+          </div
+        >
+        <span
+          class="pe-4 pt-3 text-secondary khat"
+          style="font-size: 25px; font-weight: lighter"
+        >
+          |
+        </span>
+        <div class="pe-4 pt-3  " style="position: relative;"
+          ><a
+            href=""
+            class="menu text-decoration-none menu-1 menumobile"
+            style="font-family: Yekan"
+            >محصولات
+            <div class="megamenu-1" style="width: 160px; height: 550px;background-image: url('./img/header-back-1.png'); margin-top: 500px; position: absolute; top: -460px; left: -50px;direction: rtl;padding: 10px; ">
+           <h1 class="menu" style="font-size: 15px;">معرفی شرکت</h1>
+           <br><h1 class="menu" style="font-size: 15px;">تاریخچه گلستان</h1>
+           <br><h1 class="menu" style="font-size: 15px;">اطلاعیه ها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">مسئوليت‌های اجتماعی</h1>
+           <br><h1 class="menu" style="font-size: 15px;">سازمان فروش </h1>
+           <br><h1 class="menu" style="font-size: 15px;">سازمان توزیع</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">برندها</h1>
+          </div>
+            </a
+          ></div
+        >
+        <span
+          class="pe-4 pt-3 text-secondary khat"
+          style="font-size: 25px; font-weight: lighter"
+        >
+          |
+        </span>
+        <div class="pe-4 pt-3"style="position: relative;"
+          ><a
+            href=""
+            class="menu text-decoration-none menu-1 menumobile"
+            style="font-family: Yekan"
+            >وبلاگ
+            <div class="megamenu-1" style="width: 160px; height: 300px;background-image: url('./img/header-back-1.png'); margin-top: 500px; position: absolute; top: -460px; left: -50px;direction: rtl;padding: 10px; ">
+           <h1 class="menu" style="font-size: 15px;">معرفی شرکت</h1>
+           <br><h1 class="menu" style="font-size: 15px;">تاریخچه گلستان</h1>
+           <br><h1 class="menu" style="font-size: 15px;">اطلاعیه ها</h1>
+           <br><h1 class="menu" style="font-size: 15px;">مسئوليت‌های اجتماعی</h1>
+           <br><h1 class="menu" style="font-size: 15px;">سازمان فروش </h1>
+           <br><h1 class="menu" style="font-size: 15px;">سازمان توزیع</h1>
+          </div>
+            </a
+          ></div
+        >
+        <span
+          class="pe-4 pt-3 text-secondary khat"
+          style="font-size: 25px; font-weight: lighter"
+        >
+          |
+        </span>
+        <span class="pe-4 pt-3"
+          ><a
+            href=""
+            class="menu text-decoration-none menumobile"
+            style="font-family: Yekan"
+            >قرعه کشی</a
+          ></span
+        >
+        <span
+          class="pe-4 pt-3 text-secondary khat"
+          style="font-size: 25px; font-weight: lighter"
+        >
+          |
+        </span>
+        <span class="pe-4 pt-3"
+          ><a
+            href=""
+            class="menu text-decoration-none menumobile"
+            style="font-family: Yekan"
+            >استخدام</a
+          ></span
+        >
+        <span
+          class="pe-4 pt-3 text-secondary khat"
+          style="font-size: 25px; font-weight: lighter"
+        >
+          |
+        </span>
+        <span class="pe-4 pt-3"
+          ><a
+            href=""
+            class="menu text-decoration-none menumobile" 
+            style="font-family: Yekan"
+            >تماس با ما</a
+          ></span
+        >
+        <span
+          class="pe-4 pt-3 text-secondary khat"
+          style="font-size: 25px; font-weight: lighter"
+        >
+          |
+        </span>
+        <span class="pe-4 pt-3"
+          ><a
+            href=""
+            class="menu text-decoration-none menumobile"
+            style="font-family: Yekan"
+            >EN</a
+          ></span
+        >
+      </div>
+      <div class="logo " style=" height: 100px; background-image: url('./img/header-back-1.png');">
+        <div class="ms-5 mt-5 " style="margin-right: 100px;"><img src="./img/logo-fr.png" /></div>
+      </div>
+    </div>
+     <div
+      class="d-flex flex-row justify-content-center align-items-center aax"
+      style="height: 800px;margin-top: 200px;"
+    >
+      <div
+        class="d-flex flex-row-reverse justify-content-center align-items-center gap-3 ax"
+      >
+        <div
+          class="d-flex flex-column makaroni"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic2.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >ماکارانی با سبزیجات</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌
+            می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌
+            روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ ...
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic3.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >سوپ مکزیکی</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی
+            آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن
+            بیرون آورده…
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic-Chilakile-1401.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >چیلاکیله</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            حتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای ... ما
+            است فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از
+            فهرست
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+     <div
+      class="d-flex flex-row justify-content-center align-items-center aax"
+      style="height: 800px;"
+    >
+      <div
+        class="d-flex flex-row-reverse justify-content-center align-items-center gap-3 ax"
+      >
+        <div
+          class="d-flex flex-column makaroni"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic2.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >ماکارانی با سبزیجات</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌
+            می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌
+            روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ ...
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic3.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >سوپ مکزیکی</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی
+            آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن
+            بیرون آورده…
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic-Chilakile-1401.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >چیلاکیله</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            حتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای ... ما
+            است فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از
+            فهرست
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+     <div
+      class="d-flex flex-row justify-content-center align-items-center aax"
+      style="height: 800px;"
+    >
+      <div
+        class="d-flex flex-row-reverse justify-content-center align-items-center gap-3 ax"
+      >
+        <div
+          class="d-flex flex-column makaroni"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic2.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >ماکارانی با سبزیجات</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌
+            می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌
+            روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ ...
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic3.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >سوپ مکزیکی</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی
+            آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن
+            بیرون آورده…
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            height: 600px;
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="photo" style="height: 310px">
+            <img src="./img/recipe-pic-Chilakile-1401.jpg" alt="" />
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 20px;
+              padding: 10px;
+              direction: rtl;
+            "
+            >چیلاکیله</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            حتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای ... ما
+            است فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از
+            فهرست
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="d-flex flex-row justify-content-center align-items-center ffilm"
+      style="height: 600px; "
+    >
+      <div
+        class="d-flex flex-row-reverse justify-content-center align-items-center gap-3 film"
+      >
+        <div
+          class="d-flex flex-column makaroni"
+          style="
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class=" " style="height: 170px">
+            <iframe
+              style="height: 100%; width: 100%"
+              src="https://www.aparat.com/video/video/embed/videohash/cQ0yF/vt/frame"
+            >
+            </iframe>
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 17px;
+              padding: 10px;
+              margin-right: 10px;
+              direction: rtl;
+              font-weight: bold;
+            "
+            >سالاد نودل</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با كمی آب
+            جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و خوشمزه لذت
+            ببرید.
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ویدیوهای بیشتر</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="" style="height: 170px">
+            <iframe
+              style="height: 100%; width: 100%"
+              src="https://www.aparat.com/video/video/embed/videohash/Ysaot/vt/frame"
+            >
+            </iframe>
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 17px;
+              padding: 10px;
+              direction: rtl;
+              font-weight: bold;
+              margin-right: 10px;
+            "
+            >اینستاگرام هاتی نودل</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            نودل‌های هاتی كارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی
+            دانست. طعم عالی،‌ ارزش غذایی بالا و قیمت مناسب از این محصول غذای
+            سالم و كاملی ساخته است.
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column"
+          style="
+            width: 320px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          "
+        >
+          <div class="video" style="height: 170px">
+            <!--src="https://www.aparat.com/video/video/embed/videohash/Ysaot/vt/frame"-->
+            <iframe
+              style="height: 100%; width: 100%"
+              src="https://www.aparat.com/video/video/embed/videohash/Mwp4H/vt/frame"
+            >
+            </iframe>
+          </div>
+          <span
+            style="
+              font-family: yekan;
+              color: red;
+              font-size: 17px;
+              padding: 10px;
+              direction: rtl;
+              font-weight: bold;
+              margin-right: 10px;
+            "
+            >برنج گلستان</span
+          >
+          <div
+            class="lh-lg"
+            style="
+              font-family: yekan;
+              color: #949494;
+              font-size: 15px;
+              margin-top: 15px;
+              padding: 15px;
+              direction: rtl;
+              text-align: justify;
+            "
+          >
+            عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با
+            گلستان،‌ كیفیت زندگی بالاتر از همیشه است. چرا كه مشتریان گلستان؛‌
+            لایق بهترین ها هستند.
+          </div>
+          <div style="direction: rtl; padding: 10px">
+            <a
+              href=""
+              class="btn btn-primary button px-3 py-2"
+              role="button"
+              style="font-family: yekan"
+              >ادامه مطلب</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!--social media-->
+    <div class="d-flex flex-row align-items-center justify-content-center" style="background-color: #EEEFEF; height: 100px;">
+      <a href=""><img class="social" src="./img/icon1-1-1.png" alt=""></a>
+     <a href=""> <img class="social" src="./img/icon2-1-1.png" alt=""></a>
+      <a href=""><img class="social" src="./img/icon3-1.png" alt=""></a>
+     <a href=""> <img class="social" src="./img/icon4-1.png" alt=""></a>
+      <a href=""><img class="social" src="./img/icon5-1.png" alt=""></a>
+     <a href=""> <img class="social" src="./img/icon6-1-2.png" alt=""></a>
+    </div>
+    <div style="height: 25px; background-color: #ed1c24;"></div> <!--khatte qermz-->
+    <!--footer making-->
+    <div class="d-flex flex-row align-items-center justify-content-center gap-4 footer" style="height: 380px; background-image: url('./img/header-back-1.png');">
+      <div class="d-flex flex-column  align-items-center gap-4" style="width: 151px; height: 320px; ">
+        <div style="margin: 0 auto;"><img src="./img/footer-icon2.png" alt=""></div>
+        <div style="margin: 0 auto;" ><h1 style=" color: whitesmoke; padding: 15px; font-family: Yekan; font-size: 20px; border-bottom: solid 1px whitesmoke; border-top: solid 1px whitesmoke;">چای گلستان</h1></div>
+        <div class="d-flex flex-column " style="direction: rtl; right: 0;line-height: 30px;">
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+         <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center gap-4" style="width: 151px; height: 320px;">
+        <div style="margin: 0 auto;"><img src="./img/footer-icon3.png" alt=""></div>
+        <div style="margin: 0 auto;"><h1 style=" color: whitesmoke; padding: 15px; font-family: Yekan; font-size: 20px; border-bottom: solid 1px whitesmoke; border-top: solid 1px whitesmoke;">چای گلستان</h1></div>
+        <div class="d-flex flex-column " style="direction: rtl;line-height: 30px;">
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+         <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+        </div>
+      </div>
+      <div class="d-flex flex-column  align-items-center gap-4" style="width: 151px; height: 320px;">
+      <div style="margin: 0 auto;"><img src="./img/footer-icon4.png" alt=""></div>
+        <div style="margin: 0 auto;"><h1 style=" color: whitesmoke; padding: 15px; font-family: Yekan; font-size: 20px; border-bottom: solid 1px whitesmoke; border-top: solid 1px whitesmoke;">چای گلستان</h1></div>
+        <div class="d-flex flex-column " style="direction: rtl;line-height: 30px;">
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+         <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+        </div>
+      </div>
+      <div class="d-flex flex-column  align-items-center gap-4 kabab" style="width: 151px; height: 320px;">
+      <div style="margin: 0 auto;"><img src="./img/footer-icon1.png" alt=""></div>
+        <div style="margin: 0 auto;"><h1 style=" color: whitesmoke; padding: 15px; font-family: Yekan; font-size: 20px; border-bottom: solid 1px whitesmoke; border-top: solid 1px whitesmoke;">چای گلستان</h1></div>
+        <div class="d-flex flex-column " style="direction: rtl;line-height: 30px;">
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+         <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+          <a href="" class="menu" style="text-decoration: none ;font-family: yekan;">لوبیا قرمز ممتاز</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column align-items-center justify-content-center by" style="height: 150px;background-image: url(./img/header-back-1.png);">
+      <h1 class="menu" style="font-size: 15px;">All Right Reserved Golestan Company 2022-2025</h1>
+      <h1 class="menu" style="font-size: 12px;">Design By: Golestan Studio</h1>
+      <button class="btn" id="btnSwitch" style="background-color: whitesmoke; ">Dark-Mode</button>
+    </div>
+
+ 
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let x = 0;
+      document.getElementById('dokme').addEventListener('click',()=>{
+        if(x == 0){
+      document.getElementById('hambur').style.display = 'block' 
+      x = 1;
+    }
+       
+      else{
+      document.getElementById('hambur').style.display = 'none'
+      x = 0;
+      }
+      } )
+      document.getElementById('btnSwitch').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        document.documentElement.setAttribute('data-bs-theme','light')
+     document.getElementById('qore').style.backgroundColor = '#e8e8e8'
+          document.getElementById('btnSwitch').style.backgroundColor = 'whitesmoke'
+    }
+    else {
+        document.documentElement.setAttribute('data-bs-theme','dark')
+        document.getElementById('qore').style.backgroundColor = '#2b2b2b'
+          document.getElementById('btnSwitch').style.backgroundColor = '#2b2b2b'
+    }
+})
+    </script>
+  </body>
+</html>

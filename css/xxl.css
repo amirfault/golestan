@@ -1,0 +1,43 @@
+
+.menu{
+        color: #AFB2B4;
+        transition: 300ms;
+
+}
+.menu:hover{
+    transition: 300ms;
+   color: whitesmoke;
+}
+.button{
+    background-color: white;
+    color: #AFB2B4;
+    border-color: #AFB2B4;
+    transition: 300ms;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition: 300ms;
+
+}
+.photo:hover{
+background-color: white;
+opacity: 0.8;
+
+}
+.social:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: 300ms;
+}
+.menu-1 .megamenu-1{
+    display: none;
+    transition: 1000ms;
+}
+.menu-1:hover .megamenu-1{
+ display: block;
+ transition: 1000ms;
+}

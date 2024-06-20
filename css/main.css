@@ -1,0 +1,57 @@
+
+@import url('./xxl.css') only screen and (min-width: 992px);
+@import url('./tablet.css') only screen and (max-width: 992px) and (min-width: 768px);
+@import url('./mobile.css') only screen and (max-width: 768px) ;
+@font-face {
+  font-family: 'Yekan';
+  src:
+       url('../font/IRANSansWeb\(FaNum\)_Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.mt-8{
+    margin-top: 150px;
+}
+
+.menu{
+        color: #AFB2B4;
+        transition: 300ms;
+
+}
+.menu:hover{
+    transition: 300ms;
+   color: whitesmoke;
+}
+.button{
+    background-color: white;
+    color: #AFB2B4;
+    border-color: #AFB2B4;
+    transition: 300ms;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition: 300ms;
+
+}
+.photo:hover{
+background-color: white;
+opacity: 0.8;
+
+}
+.social:hover{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: 300ms;
+}
+.menu-1 .megamenu-1{
+    display: none;
+    transition: 1000ms;
+}
+.menu-1:hover .megamenu-1{
+ display: block;
+ transition: 1000ms;
+}

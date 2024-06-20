@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.khat{
+    display: none;
+}
+.logoheader{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items:center !important ;
+}
+.mmenu{
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.logo>div.mt-5{
+ margin-top: 0 !important;    
+}
+.moarefi{
+    display: block !important;
+    margin-top: 200px !important;
+}
+.makaroni{
+    display: none !important;
+}
+.moarefii{
+    margin-right: 30px;
+}

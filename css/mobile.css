@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.khat{
+    display: none;
+}
+.logoheader{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items:center !important ;
+}
+.mmenu{
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.logo>div.mt-5{
+ margin-top: 0 !important;    
+}
+.moarefi{
+    display: block !important;
+    margin-top: 200px !important;
+    height: 800px !important;
+}
+.makaroni{
+    display: none !important;
+}
+.kabab{
+    display: none !important;
+}
+.moarefii{
+    margin-right: 30px;
+}
+.film{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items:center !important ;
+}
+.ffilm{
+    height: 950px !important;
+}
+.ax{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items:center !important ;
+}
+.aax{
+    height: 1430px !important;
+}
+.footer{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items:center !important ;
+    height: 1000px !important;
+}
+
+.redd{
+    width: 100% !important;
+    right: 0 !important;
+}
+.tea{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items:center !important ;
+}
+.widtheshon{
+    width: 100% !important;
+}
+.menumobile{
+    display: none !important;
+}
+.menua{
+        color: #AFB2B4;
+        transition: 300ms;
+
+}
+.menua:hover{
+    transition: 300ms;
+   color: whitesmoke;
+}
+.hamburger{
+    display: block !important;
+}
