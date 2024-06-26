@@ -182,7 +182,7 @@
       </div>
     </div>
      <div
-      class="d-flex flex-row justify-content-center align-items-center aax"
+      class="d-flex flex-row justify-content-center align-items-center aax green"
       style="height: 800px;margin-top: 200px;"
     >
       <div
@@ -338,7 +338,7 @@
       </div>
     </div>
      <div
-      class="d-flex flex-row justify-content-center align-items-center aax"
+      class="d-flex flex-row justify-content-center align-items-center aax green"
       style="height: 800px;"
     >
       <div
@@ -494,7 +494,7 @@
       </div>
     </div>
      <div
-      class="d-flex flex-row justify-content-center align-items-center aax"
+      class="d-flex flex-row justify-content-center align-items-center aax green"
       style="height: 800px;"
     >
       <div
@@ -650,7 +650,7 @@
       </div>
     </div>
     <div
-      class="d-flex flex-row justify-content-center align-items-center ffilm"
+      class="d-flex flex-row justify-content-center align-items-center ffilm green"
       style="height: 600px; "
     >
       <div
@@ -884,7 +884,8 @@
     <div class="d-flex flex-column align-items-center justify-content-center by" style="height: 150px;background-image: url(./img/header-back-1.png);">
       <h1 class="menu" style="font-size: 15px;">All Right Reserved Golestan Company 2022-2025</h1>
       <h1 class="menu" style="font-size: 12px;">Design By: Golestan Studio</h1>
-      <button class="btn" id="btnSwitch" style="background-color: whitesmoke; ">Dark-Mode</button>
+      <button class="btn" id="btnSwitch" style="background-color: whitesmoke; ">Darks-Mode</button>
+      <br><button class="btn" onclick="myFunction()" id="btnSwitchs" style="background-color: whitesmoke; ">Green-Mode</button>
     </div>
 
  
@@ -914,6 +915,24 @@
           document.getElementById('btnSwitch').style.backgroundColor = '#2b2b2b'
     }
 })
+
+let gr = 0;
+function myFunction() {
+  if(gr == 0){
+  const alo = document.getElementsByClassName('green');
+  for(let i = 0; i < alo.length; i ++)
+  alo[i].style.backgroundColor = '#cde4b0';
+  gr = 1;
+  document.getElementById('btnSwitchs').style.backgroundColor = '#cde4b0';
+  }
+  else{
+  const alo = document.getElementsByClassName('green');
+  for(let i = 0; i < alo.length; i ++)
+  alo[i].style.backgroundColor = 'white';
+  document.getElementById('btnSwitchs').style.backgroundColor = 'white';
+  gr = 0;
+  }
+}
     </script>
   </body>
 </html>
